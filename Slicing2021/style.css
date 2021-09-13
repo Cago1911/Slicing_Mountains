@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(assets/img/fonts/Gilroy-Light.otf);
+}
+html *
+{
+    font-family:import url(//db.onlinewebfonts.com/c/647a7208a3f353750207213a569815d4?family=Chronicle+Display);
+}
+body
+{
+ margin:0;
+ padding:0;
+}
+.clouds
+{
+margin-top: 0;
+}
+.content_box
+{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 1494px;
+height: 3367px;
+left: 213px;
+top: 1443px;
+}
+.footer_content_box
+{
+    position: static;
+width: 1462px;
+height: 280px;
+left: 16px;
+top: 2760px;
+
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 200px 0px;
+}
+.footer_copyright
+{
+    position: absolute;
+width: 347px;
+height: 32px;
+left: 22.06px;
+top: 3008px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+.footer_links
+{
+    position: absolute;
+    display: flex;
+flex-direction: column;
+width: 161px;
+height: 184px;
+left: 1317px;
+top: 2760px;
+}
+.man
+{
+margin-top:-725px;
+z-index: 1;
+}
+.mountains
+{
+margin-top: -270px;
+z-index: 0;
+}
+
